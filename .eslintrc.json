@@ -1,0 +1,18 @@
+{
+    "extends": ["eslint:recommended","react-app", "react-app/jest", "prettier"],
+    "rules": { "semi": "error", "indent": "error"},
+    "plugins": [],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  }
+  
